@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0" 
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+    <!--
+    Special configuration without Nexus as a repository mirror. To use run with
+    this command (option gs == global-settings):
+
+    mvn -gs c:\Java\apache-maven-3.0.4\conf\settings-no_nexus.xml install
+    -->
+    <localRepository>D:/Java/Repository</localRepository>
+</settings>
